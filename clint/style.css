@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 91, 0);
+    z-index: 1;
+}
+
+#logo img{
+    height: 45px;
+    border-radius: 10px;
+    margin: 3px 20px;
+}
+#navmenu{
+    height: 55px;
+    width: 93%;
+    text-align: center;
+}
+#navmenu h1{
+    margin: 14px;
+    color: aliceblue;
+}
+#container{
+    height: 620px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background-color: rgb(61, 60, 60);
+}
+.user{
+    border: 3px solid #8dca9366;
+    border-radius: 10px;
+    height: 40px;
+    margin: 5px 10px;
+    padding: 5px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #8dca9366;
+
+}
+.userinfo{
+    overflow-y: auto;
+}
+h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.grid-item{
+    border: 2px solid white;
+    margin: 5px;
+}
+.massege-container{
+    position: relative;
+    overflow-y: auto;
+    height: 538px;
+}
+
+.massege{
+    max-width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin: 10px;
+    font-size: 16px;
+    position: relative;
+}
+.right{
+   float: right;
+   clear: both;
+   background-color: wheat;
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: wheat;
+}
+.update{
+    width: 70%;
+    margin: 10px auto;
+    clear: both;
+    text-align: center;
+    background-color: rgb(168, 137, 81);
+}
+#name{
+    font-weight: bold;
+}
+
+#time{
+    float: right;
+    margin-left: 10px;
+    color: rgb(29, 186, 52);
+    bottom: 0;
+    /* bottom: 0; */
+}
+#input-block{
+    position: absolute;
+    width: 69%;
+    padding: 10px 8px;
+    padding-left: 9px;
+    
+    background-color: #808080fa;;
+}
+#input-block input{
+    padding: 8px;
+    padding-left: 24px;
+    margin: 3px;
+    width: 87%;
+    border-radius: 18px;
+    font-size: 20px;
+}
+#input-block button{
+    padding: 8px;
+    margin: 3px;
+    border-radius: 10px;
+    width: 8%;
+}
+
+#btn:hover{
+    background-color: rgb(204, 203, 203);
+}
+

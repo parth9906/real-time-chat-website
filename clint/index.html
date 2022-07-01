@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>whatsapp clone</title>
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div id="navmenu">
+            <h1>Welcome to Our Chat Website</h1>
+        </div>
+    </nav>
+    <div id="container">
+        <div class="grid-item">
+            <h2>Users in the chat</h2>
+            <div class="userinfo">
+                
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="massege-container">
+                <div class="massege update">  Start chatting here</div>
+               
+            </div>
+            <div id="input-block">
+                <input type="text" name="input" id="input" placeholder="Type a massege">
+                <button id="btn" type="submit">Send</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="clint.js"></script>
+</body>
+</html>
